@@ -1,0 +1,7 @@
+body { 
+    height: 100vh;
+    background: rgb(25, 84, 103);
+    background-size: cover;
+    background-position: center;
+    color: rgb(38, 241, 15);
+  }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title> Conversor de Moedas BRL e USD</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+
+<body>
+    <center>
+    <div>
+        <h1 > <u>Conversor de Moedas </u></h1>
+        <br>
+    </div>
+    
+        <h2 > Digite a taxa de conversão:  </h2>
+        <input type="number" id="cv.tax_cv" />
+        <button class="button" id="button_1" onclick="confirmacao_taxa()" >Confirmar a Taxa</button>
+        <button class="button" id="button_0" onclick="clear_tax()" > Limpar a Taxa</button>
+
+    <div>
+        <br>
+        <h2 > Converter Real Para Dólar  </h2>
+        <input type="number" id="cv.real_dol" />
+        <button class="button" id="button_2" onclick="cv_real_to_dol()">Conversão</button>
+    </div>
+
+    <div>
+        <br>
+        <h2 > Converter Dólar para Real </h2>
+        <input type="number" id="cv_dol_real" />
+        <button class="button" id="button_3" onclick="cv_dol_to_real()" >Conversão</button>
+    </div>
+
+    <div>
+        <br>
+        <h1>Louco por ti!!</h1>
+        <img src="img/triometralha.png" alt="Trio Metralha Patinhas">
+    </div> 
+</center>
+</body>
+
+</html>
